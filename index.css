@@ -3,7 +3,6 @@ html {
   margin: 0;
   padding: 0;
   height: 100%;
-
 }
 
 .title {
@@ -71,7 +70,7 @@ html {
 .name:hover,
 .email:hover,
 .password:hover,
-.password2:hover{
+.password2:hover {
   all: unset;
   background-color: rgb(69, 69, 69);
 
@@ -81,10 +80,10 @@ html {
   border-radius: 4px;
   color: white;
   font-size: 15px;
-  font-weight: 500;
  
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: lighter;
   padding: 2px;
-
 }
 
 input::placeholder {
@@ -111,14 +110,12 @@ button {
   text-align: center;
   font-family: "Noto Sans", sans-serif;
   font-weight: 800;
-  margin-top: 20px; 
-   cursor: pointer;  
-
+  margin-top: 20px;
+  cursor: pointer;
 }
 
-
 button:hover {
-	background-color: #9b0910;
+  background-color: #9b0910;
   color: rgb(247, 243, 243);
 }
 
@@ -129,7 +126,7 @@ button:hover {
   justify-content: center;
   align-self: center;
   width: 300px;
-  margin-top: 40px;
+  margin-top: 36px;
 }
 .plus {
   font-family: "Noto Sans JP", sans-serif;
@@ -141,6 +138,7 @@ button:hover {
 .plus > p {
   all: unset;
   color: white;
+  cursor: pointer;
 }
 
 .plus2 {
@@ -154,10 +152,8 @@ button:hover {
 .plus2 > p {
   all: unset;
   color: #0071eb;
+  cursor: help;
 }
-
-
-
 
 .form-control small {
   font-family: "Noto Sans JP", sans-serif;
@@ -167,4 +163,15 @@ button:hover {
   bottom: 0;
   left: 0;
   visibility: hidden;
+}
+
+.form-control.error input {
+  border: 1px double #e86a05;
+}
+.form-control.error small {
+  visibility: visible;
+}
+
+.form-control.success input {
+  background-color: rgb(69, 69, 69);
 }
