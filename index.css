@@ -166,7 +166,7 @@ button:hover {
 }
 
 .form-control.error input {
-  border: 1px double #e86a05;
+  border-bottom: 1px double #e86a05;
 }
 .form-control.error small {
   visibility: visible;
