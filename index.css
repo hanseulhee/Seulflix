@@ -1,0 +1,168 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+
+}
+
+.title {
+  position: absolute;
+
+  width: 300px;
+  height: 150px;
+  z-index: 2;
+}
+
+.background {
+  min-height: 100%;
+  position: absolute;
+  z-index: 1;
+  filter: brightness(68%);
+}
+
+.box {
+  background-color: rgb(0, 0, 0, 0.8);
+  width: 450px;
+  height: 660px;
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+  position: absolute;
+  top: 85px;
+  left: 35%;
+}
+
+.inform {
+  color: white;
+  font-size: 32px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 800;
+
+  margin-top: 60px;
+  margin-left: 70px;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  margin-top: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+.name,
+.email,
+.password,
+.password2 {
+  all: unset;
+  background-color: rgb(51, 51, 51);
+  position: relative;
+  width: 320px;
+  height: 50px;
+  z-index: 4;
+  border-radius: 4px;
+  padding: 2px;
+  color: white;
+}
+
+.name:hover,
+.email:hover,
+.password:hover,
+.password2:hover{
+  all: unset;
+  background-color: rgb(69, 69, 69);
+
+  width: 320px;
+  height: 50px;
+  z-index: 4;
+  border-radius: 4px;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+ 
+  padding: 2px;
+
+}
+
+input::placeholder {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  padding: 15px;
+  font-weight: 100;
+  color: rgb(140, 140, 140);
+}
+button {
+  all: unset;
+  background-color: #e50914;
+  color: white;
+  border-radius: 4px;
+  width: 300px;
+  height: 53px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+
+  font-size: 17px;
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 800;
+  margin-top: 20px; 
+   cursor: pointer;  
+
+}
+
+
+button:hover{
+
+}
+.explain {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-self: center;
+  width: 300px;
+  margin-top: 40px;
+}
+.plus {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  color: rgb(140, 140, 140);
+}
+
+.plus > p {
+  all: unset;
+  color: white;
+}
+
+.plus2 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 13px;
+  font-weight: lighter;
+  color: rgb(140, 140, 140);
+  margin-top: 17px;
+}
+
+.plus2 > p {
+  all: unset;
+  color: #0071eb;
+}
+
+
+
+
+.form-control small {
+  font-family: "Noto Sans JP", sans-serif;
+  color: #e86a05;
+  letter-spacing: 0.2px;
+  font-size: 12px;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
