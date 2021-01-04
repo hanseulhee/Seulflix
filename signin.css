@@ -158,6 +158,7 @@ button:hover {
   padding-top: 13px;
   margin-left: 323px;
   font-family: "Noto Sans JP", sans-serif;
+  cursor: pointer;
 }
 .form-control small {
   font-family: "Noto Sans JP", sans-serif;
