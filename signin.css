@@ -53,9 +53,7 @@ html {
 }
 
 .name,
-.email,
-.password,
-.password2 {
+.password {
   all: unset;
   background-color: rgb(51, 51, 51);
   position: relative;
@@ -68,9 +66,7 @@ html {
 }
 
 .name:hover,
-.email:hover,
-.password:hover,
-.password2:hover {
+.password:hover {
   all: unset;
   background-color: rgb(69, 69, 69);
 
@@ -135,7 +131,7 @@ button:hover {
   color: rgb(140, 140, 140);
 }
 
-.plus > a {
+.plus > p {
   all: unset;
   color: white;
   cursor: pointer;
@@ -155,6 +151,14 @@ button:hover {
   cursor: help;
 }
 
+.help {
+  all: unset;
+  color: #b3b3b3;
+  font-size: 12px;
+  padding-top: 13px;
+  margin-left: 323px;
+  font-family: "Noto Sans JP", sans-serif;
+}
 .form-control small {
   font-family: "Noto Sans JP", sans-serif;
   color: #e86a05;
