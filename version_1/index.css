@@ -3,6 +3,8 @@ html {
   margin: 0;
   padding: 0;
   height: 100%;
+  
+  
 }
 
 .title {
@@ -175,3 +177,12 @@ button:hover {
 .form-control.success input {
   background-color: rgb(69, 69, 69);
 }
+
+.big{
+  min-height: 100%;
+}
+
+
+
+
+

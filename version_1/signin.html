@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signin.css" />
+    <link rel="shortcut icon" type="image⁄x-icon" href="logo.png" />
+    <title>Netflix</title>
+</head>
+<body>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Sans:wght@400;700&display=swap");
+      </style>
+    </head>
+    <body style="overflow-x: hidden">
+      <img class="title" src="title.png" />
+      <img
+        class="background"
+        src="https://assets.nflxext.com/ffe/siteui/vlv3/9ec8d211-6a2a-460d-9b68-5d6bb1c57ee0/e850e10f-d215-445a-941b-2fd33d419c8d/KR-ko-20201228-popsignuptwoweeks-perspective_alpha_website_small.jpg"
+        srcset="
+          https://assets.nflxext.com/ffe/siteui/vlv3/9ec8d211-6a2a-460d-9b68-5d6bb1c57ee0/e850e10f-d215-445a-941b-2fd33d419c8d/KR-ko-20201228-popsignuptwoweeks-perspective_alpha_website_small.jpg  1000w,
+          https://assets.nflxext.com/ffe/siteui/vlv3/9ec8d211-6a2a-460d-9b68-5d6bb1c57ee0/e850e10f-d215-445a-941b-2fd33d419c8d/KR-ko-20201228-popsignuptwoweeks-perspective_alpha_website_medium.jpg 1500w,
+          https://assets.nflxext.com/ffe/siteui/vlv3/9ec8d211-6a2a-460d-9b68-5d6bb1c57ee0/e850e10f-d215-445a-941b-2fd33d419c8d/KR-ko-20201228-popsignuptwoweeks-perspective_alpha_website_large.jpg  1800w
+        "
+        alt=""
+      />
+  
+      <form id="form" class="form">
+        <div class="box">
+          <div class="inform">Sign In</div>
+  
+          <div class="form-control">
+            <input type="text" class="name" placeholder="Enter username" />
+  
+            <small>Error message</small>
+          </div>
+  
+          <div class="form-control">
+            <input type="password" class="password" placeholder="Enter password" />
+            <small>Error message</small>
+          </div>
+  
+        
+          <button type="submit">Sign In</button>
+          <a class="help">Need help?</a>
+          <div class="explain">
+            <div class="plus">
+              Forgot your password?&nbsp;
+              <p>
+                Change Password</p>
+            </div>
+            <div class="plus2">
+              This page is protected by Google reCAPTCHA to ensure you're not a
+              bot. &nbsp;
+              <p>Learn more.</p>
+              
+            </div>
+       </div>
+        </div>
+      </form>
+  
+    <script src="signin.js"></script>
+</body>
+</html>
