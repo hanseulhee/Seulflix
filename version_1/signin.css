@@ -82,6 +82,10 @@ html {
   padding: 2px;
 }
 
+.input:valid {
+  padding-left: 20px;
+}
+
 input::placeholder {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 15px;
@@ -181,3 +185,11 @@ button:hover {
   background-color: rgb(69, 69, 69);
 }
 
+.form {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
