@@ -2,8 +2,6 @@ const form = document.querySelector(".form");
 const name = document.querySelector(".name");
 const password = document.querySelector(".password");
 
-
-
 form.addEventListener("submit", function (e) {
   e.preventDefault();
   inputpassword(password);
@@ -15,8 +13,6 @@ const setDefault = (input) => {
   formControl.className = "form-control";
 };
 
-
-
 const inputpassword = () => {
   if (password.value.length >= 6) {
     success(password);
@@ -24,7 +20,6 @@ const inputpassword = () => {
     errormessage(password, `Password must be at least 6 characters`);
   }
 };
-
 
 const inputname = () => {
   if (name.value.length === 0) {
