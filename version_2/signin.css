@@ -139,7 +139,7 @@ button:hover {
   color: rgb(140, 140, 140);
 }
 
-.plus > p {
+.plus > a {
   all: unset;
   color: white;
   cursor: pointer;
