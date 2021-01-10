@@ -6,6 +6,7 @@ const password2 = document.querySelector(".password2");
 
 
 
+
 form.addEventListener("submit", function (e) {
   e.preventDefault();
   inputpassword(password);
@@ -13,6 +14,13 @@ form.addEventListener("submit", function (e) {
   inputemail(email);
   inputpassword2(password, password2);
 });
+
+// function movieHome(){
+
+//   location.href = "main.html";
+// }
+
+
 const setDefault = (input) => {
   const formControl = input.parentElement;
   formControl.className = "form-control";
@@ -74,6 +82,7 @@ function init() {
   email.addEventListener("input", inputemail);
   password.addEventListener("input", inputpassword);
   password2.addEventListener("input", inputpassword2);
+
 }
 
 init();

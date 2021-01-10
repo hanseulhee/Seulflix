@@ -16,7 +16,6 @@ html {
 .background {
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
     object-fit: fill;
     position: absolute;
     z-index: 1;
@@ -32,7 +31,7 @@ html {
     z-index: 3;
     position: absolute;
 
-    backdrop-filter: blur(18px);
+    backdrop-filter: blur(17px);
 }
 
 .inform {
@@ -180,7 +179,7 @@ button:hover {
 }
 
 .form-control.error input {
-  border-bottom: 1px double #e86a05;
+  border-bottom: 1px solid #e86a05;
 }
 .form-control.error small {
   visibility: visible;

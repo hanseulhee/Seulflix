@@ -1,84 +1,69 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="index.css" />
-        <link rel="shortcut icon" type="image⁄x-icon" href="logo.png" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="shortcut icon" type="image⁄x-icon" href="logo.png" />
 
-        <title>Netflix</title>
-        <style>
-            @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-            @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
-            @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Sans:wght@400;700&display=swap");
-        </style>
-    </head>
-    <body style="overflow-x: hidden; overflow-y: hidden">
-        <div class="big">
-            <img class="title" src="title.png" />
-            <video
-                class="background"
-                src="intro.mp4"
-                autoplay
-                muted
-                loop
-            ></video>
+    <title>Netflix</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Sans:wght@400;700&display=swap");
+    </style>
+  </head>
+  <body style="overflow-x: hidden; overflow-y: hidden">
+    <img class="title" src="title.png" />
+    <video class="background" src="intro.mp4" autoplay muted loop></video>
 
-            <form id="form" class="form">
-                <div class="box">
-                    <div class="inform">Sign Up</div>
+    <form class="form">
+      <div class="box">
+        <div class="inform">Sign Up</div>
 
-                    <div class="form-control">
-                        <input
-                            type="text"
-                            class="name input"
-                            placeholder="Enter username"
-                        />
+        <div class="form-control">
+          <input type="text" class="name input" placeholder="Enter username" />
 
-                        <small>Error message</small>
-                    </div>
-
-                    <div class="form-control">
-                        <input
-                            type="text"
-                            class="email input"
-                            placeholder="Enter email"
-                        />
-                        <small>Error message</small>
-                    </div>
-
-                    <div class="form-control">
-                        <input
-                            type="password"
-                            class="password input"
-                            placeholder="Enter password"
-                        />
-                        <small>Error message</small>
-                    </div>
-
-                    <div class="form-control">
-                        <input
-                            type="password"
-                            class="password2 input"
-                            placeholder="Enter password again"
-                        />
-                        <small>Error message</small>
-                    </div>
-                    <button type="submit">Sign Up</button>
-                    <div class="explain">
-                        <div class="plus">
-                            Already have an account?&nbsp;
-                            <a href="signin.html">Sign in now.</a>
-                        </div>
-                        <div class="plus2">
-                            This page is protected by Google reCAPTCHA to ensure
-                            you're not a bot. &nbsp;
-                            <p>Learn more.</p>
-                        </div>
-                    </div>
-                </div>
-            </form>
+          <small>Error message</small>
         </div>
-        <script src="index.js"></script>
-    </body>
+
+        <div class="form-control">
+          <input type="text" class="email input" placeholder="Enter email" />
+          <small>Error message</small>
+        </div>
+
+        <div class="form-control">
+          <input
+            type="password"
+            class="password input"
+            placeholder="Enter password"
+          />
+          <small>Error message</small>
+        </div>
+
+        <div class="form-control">
+          <input
+            type="password"
+            class="password2 input"
+            placeholder="Enter password again"
+          />
+          <small>Error message</small>
+        </div>
+        <button type="submit">Sign Up</button>
+        <div class="explain">
+          <div class="plus">
+            Already have an account?&nbsp;
+            <a href="signin.html">Sign in now.</a>
+          </div>
+          <div class="plus2">
+            This page is protected by Google reCAPTCHA to ensure you're not a
+            bot. &nbsp;
+            <p>Learn more.</p>
+          </div>
+        </div>
+      </div>
+    </form>
+
+    <script src="index.js"></script>
+  </body>
 </html>
