@@ -1,59 +1,53 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
     <link rel="stylesheet" href="signin.css" />
     <link rel="shortcut icon" type="image⁄x-icon" href="logo.png" />
     <title>Netflix</title>
     <style>
-        @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-        @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
-        @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Sans:wght@400;700&display=swap");
-      </style>
-    </head>
-    <body style="overflow-x: hidden; overflow-y: hidden">
-          <img class="title" src="title.png" />
-          <video
-              class="background"
-              src="intro.mp4"
-              autoplay
-              muted
-              loop
-          ></video>
-      <form id="form" class="form">
-        <div class="box">
-          <div class="inform">Sign In</div>
-  
-          <div class="form-control">
-            <input type="text" class="name input" placeholder="Enter username" />
-  
-            <small>Error message</small>
-          </div>
-  
-          <div class="form-control">
-            <input type="password" class="password input" placeholder="Enter password" />
-            <small>Error message</small>
-          </div>
-  
-        
-          <button type="submit">Sign In</button>
-          <a class="help">Need help?</a>
-          <div class="explain">
-            <div class="plus">
-              Forgot your password?&nbsp;
-              <a>
-                Change Password</a>
-            </div>
-            <div class="plus2">
-              This page is protected by Google reCAPTCHA to ensure you're not a
-              bot. &nbsp;
-              <p>Learn more.</p>
-              
-            </div>
-       </div>
+      @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Sans:wght@400;700&display=swap");
+    </style>
+  </head>
+  <body style="overflow-x: hidden; overflow-y: hidden">
+    <img class="title" src="title.png" />
+    <video class="background" src="intro.mp4" autoplay muted loop></video>
+    <form id="form" class="form">
+      <div class="box">
+        <div class="inform">Sign In</div>
+
+        <div class="form-control">
+          <input type="text" class="name input" placeholder="Enter username" />
+
+          <small>Error message</small>
         </div>
-      </form>
+
+        <div class="form-control">
+          <input
+            type="password"
+            class="password input"
+            placeholder="Enter password"
+          />
+          <small>Error message</small>
+        </div>
+
+        <button type="submit">Sign In</button>
+        <a class="help">Need help?</a>
+        <div class="explain">
+          <div class="plus">
+            Forgot your password?&nbsp;
+            <a> Change Password</a>
+          </div>
+          <div class="plus2">
+            This page is protected by Google reCAPTCHA to ensure you're not a
+            bot. &nbsp;
+            <p>Learn more.</p>
+          </div>
+        </div>
+      </div>
+    </form>
     <script src="signin.js"></script>
-</body>
+  </body>
 </html>
