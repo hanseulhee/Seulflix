@@ -8,10 +8,7 @@ form.addEventListener("submit", function (e) {
   inputname();
 });
 
-const setDefault = (input) => {
-  const formControl = input.parentElement;
-  formControl.className = "form-control";
-};
+
 
 const inputpassword = () => {
   if (password.value.length >= 6) {

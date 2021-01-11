@@ -13,10 +13,7 @@ form.addEventListener("submit", function (e) {
   inputemail(email);
   inputpassword2(password, password2);
 });
-const setDefault = (input) => {
-  const formControl = input.parentElement;
-  formControl.className = "form-control";
-};
+
 
 const inputpassword2 = () => {
   const input1 = password.value;

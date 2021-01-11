@@ -20,11 +20,18 @@ form.addEventListener("submit", function (e) {
 //   location.href = "main.html";
 // }
 
+// const movieHome = () => {
+  
+//   if(){
+  
 
-const setDefault = (input) => {
-  const formControl = input.parentElement;
-  formControl.className = "form-control";
-};
+//   }else{
+    
+//   location.href = "main.html";
+//   }
+// };
+
+
 
 const inputpassword2 = () => {
   const input1 = password.value;
