@@ -9,6 +9,8 @@ html {
 .navbar {
   display: flex;
   flex-direction: row;
+  position: sticky;
+  top: 0;
 }
 
 .navbar > img {
@@ -49,4 +51,15 @@ a:hover {
   font-size: 18px;
   font-family: "Noto Sans", sans-serif;
   font-weight: 800;
+ 
+}
+
+.js-movie > img {
+  all: unset;
+  padding-top: 20px;
+
+  padding-bottom: 20px;
+  padding-right: 20px;
+  width: 210px;
+  height: 170px;
 }
